@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29519.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReceivePDF", "ReceivePDF\ReceivePDF.csproj", "{39C84DF1-661B-49AF-B77D-87AD22CC309E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{39C84DF1-661B-49AF-B77D-87AD22CC309E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39C84DF1-661B-49AF-B77D-87AD22CC309E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39C84DF1-661B-49AF-B77D-87AD22CC309E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39C84DF1-661B-49AF-B77D-87AD22CC309E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {04F4A938-8D3D-4159-BA91-D3FA6AD6E5AF}
+	EndGlobalSection
+EndGlobal
