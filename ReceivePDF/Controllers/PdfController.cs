@@ -31,24 +31,6 @@ namespace ReceivePDF.Controllers
                 pdf = await reader.ReadToEndAsync();
             }
 
-            //Response.Headers.Add("Content-Type", "application/vnd.fdf");
-            //Response.Headers.Add("Content-disposition", "inline");
-            /* string t = @"%FDF-1.2
-                           %âãÏÓ
-                           1 0 obj
-                           <<
-                           /FDF
-                               <<
-                               /Status(Merci d'avoir soumis votre demande d'aide.\nNous traiterons votre demande le plus rapidement possible.)
-                               >>
-                           >>
-                           endobj
-                           trailer
-                           <</Root 1 0 R>>
-                           %%EOF";
-
-               return Content(t, "application/vnd.fdf");*/
-
             Response.Headers.Add("content-disposition", "filename='parseFDF.txt'");
             string t = "Merci d'avoir soumis votre demande d'aide.\nNous traiterons votre demande le plus rapidement possible.";
 
